@@ -4,9 +4,11 @@ class ChatModel {
   final String? currentMessage;
   final String? time;
   final String? icon;
+  final String? status;
+   bool select=false;
 
   ChatModel(
-      {this.name, this.isGroup, this.currentMessage, this.time, this.icon});
+      {this.select=false,this.status,this.name, this.isGroup, this.currentMessage, this.time, this.icon});
 }
 List<ChatModel> chats = [
   ChatModel(
@@ -29,5 +31,19 @@ List<ChatModel> chats = [
     icon: "assets/person.svg",
     time: "7:38",
     isGroup: false,
+  ),
+];
+List<ChatModel> contacts = [
+  ChatModel(
+    name: "Sanskar Modi",
+    status:"App Developer"
+  ),
+  ChatModel(
+    name: "Naman Agarwal",
+    status: "Web Developer"
+  ),
+  ChatModel(
+    name: "Harsh Bokan",
+    status: "Software Developer"
   ),
 ];

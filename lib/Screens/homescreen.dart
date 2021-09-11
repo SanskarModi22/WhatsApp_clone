@@ -29,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen>
               SliverAppBar(
                 floating: true,
                 pinned: true,
+backgroundColor: Color(0xFF128C7E),
                 title: Text("Whatsapp Clone"),
                 actions: [
                   IconButton(icon: Icon(Icons.search), onPressed: () {}),

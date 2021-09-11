@@ -30,6 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.3
   flutter_svg: ^0.22.0
   sizer: ^2.0.13
+  emoji_picker_flutter: ^1.0.7
+  shared_preferences: ^2.0.7
 
 dev_dependencies:
   flutter_test:
