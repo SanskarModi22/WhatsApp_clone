@@ -229,7 +229,7 @@ class _IndividualState extends State<Individual> {
 
   Widget bottomSheet() {
     return Container(
-        height: 32.h,
+        height: 34.h,
         width: 100.w,
         child: Card(
           margin: EdgeInsets.all(7.sp),

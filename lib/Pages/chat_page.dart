@@ -18,6 +18,7 @@ class _ChatPageState extends State<ChatPage> {
       body: MediaQuery.removePadding(
         context: context,
         removeTop: true,
+        removeLeft: true,
         child: ListView.builder(
           itemCount: chats.length,
           itemBuilder: (BuildContext contesxt, item) {

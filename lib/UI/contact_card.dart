@@ -3,8 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sizer/sizer.dart';
 import 'package:whatsapp_clone/Models/chat_model.dart';
 
-class CustomCard extends StatelessWidget {
-  const CustomCard({Key? key, this.contact}) : super(key: key);
+class ContactCard extends StatelessWidget {
+  const ContactCard({Key? key, this.contact}) : super(key: key);
   final ChatModel? contact;
 
   @override

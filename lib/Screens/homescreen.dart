@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/Pages/camera_page.dart';
 import 'package:whatsapp_clone/Pages/chat_page.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -76,7 +77,7 @@ backgroundColor: Color(0xFF128C7E),
           body: TabBarView(
             controller: _controller,
             children: [
-              Text("camera"),
+              CameraPage(),
               ChatPage(),
               Text("status"),
               Text("calls")

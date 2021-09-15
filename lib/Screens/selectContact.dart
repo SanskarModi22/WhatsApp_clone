@@ -94,7 +94,7 @@ class _SelectContactState extends State<SelectContact> {
             }
             return Padding(
               padding: EdgeInsets.fromLTRB(0, 1.h, 0, 0),
-              child: CustomCard(
+              child: ContactCard(
                 contact: contacts[item - 2],
               ),
             );
